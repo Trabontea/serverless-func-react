@@ -55,9 +55,10 @@ const Product = () => {
             <div>
               <h5>{name}</h5>
               <h5 className="price"><span>Price: </span>${price}</h5>
+              <p className='description'>{desc}</p>
             </div>
           </article>
-          <p className='description'>{desc}</p>
+
         </div>
       </section>
   )
